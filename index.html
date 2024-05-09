@@ -6,7 +6,7 @@
 
 <head>
     <style>
-        #button {
+        .button-t {
             margin-top: 3.5px;
             text-align: center;
             font-size: 20px;
@@ -25,18 +25,21 @@
         }
     </style>
     <br><br><br>
-    <center><button style="color: rgb(255, 255, 255); text-align: center;" id="button" type="button" onClick="recarregarAPagina()">Para Volver</button> -
-        <a href="https://repository.upb.edu.co/bitstream/handle/20.500.11912/432/digital_17516.pdf?sequence=1&isAllowed=y"><button style="color: rgb(255, 255, 255); text-align: center;" id="button" onClick="cliqueBtn()">Descargar Archivo</button></a>
+    <center><button style="color: rgb(255, 255, 255); text-align: center;" class="button-t" id="refresh" onClick="recarregarAPagina()">Para Volver</button>
+        <a href="https://repository.upb.edu.co/bitstream/handle/20.500.11912/432/digital_17516.pdf?sequence=1&isAllowed=y"><button style="color: rgb(255, 255, 255); text-align: center;" class="button-t" onClick="cliqueBtn()">Descargar Archivo</button></a>
     </center>
     <br><br><br>
 </head>
 
 <body>
+
     <img src="/espectro_electromagnetico.jpg" alt="Spectrum_Properties_es"></body>
 <script>
-    function recarregarAPagina() {
-        window.location.reload();
-    }
+    var btn = document.querySelector("#refresh");
+    btn.addEventListener("click", function() {
+
+        location.reload();
+    });
 </script>
 
 </html>
