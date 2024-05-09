@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="/src/static/pages/templates/docs-word/js/simple-grid.min.css" rel="stylesheet">
+
+<head>
+    <style>
+        #button {
+            margin-top: 3.5px;
+            text-align: center;
+            font-size: 20px;
+            font-weight: 600;
+            background-color: #007bff;
+            border-radius: 50px;
+            border: 5px;
+            padding: 10px 20.2%;
+            cursor: pointer;
+        }
+        
+        body {
+            border: none;
+            text-align: center !important;
+            justify-content: center;
+        }
+    </style>
+    <br><br><br>
+    <center><a href="/src/static/pages/areas/ortopedia/ortopedia.html"><button style="color: rgb(255, 255, 255); text-align: center;" id="button" onClick="cliqueBtn()">Para Volver</button></a> -
+        <a href="https://repository.upb.edu.co/bitstream/handle/20.500.11912/432/digital_17516.pdf?sequence=1&isAllowed=y"><button style="color: rgb(255, 255, 255); text-align: center;" id="button" onClick="cliqueBtn()">Descargar Archivo</button></a>
+    </center>
+    <br><br><br>
+</head>
+
+<body>
+    <img src="/src/static/img/areas/espectro_electromagnetico.jpg" alt="Spectrum_Properties_es"></body>
+
+</html>
