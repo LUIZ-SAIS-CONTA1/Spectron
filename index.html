@@ -14,7 +14,7 @@
             background-color: #007bff;
             border-radius: 50px;
             border: 5px;
-            padding: 10px 20.2%;
+            padding: 10px 40.2%;
             cursor: pointer;
         }
         
@@ -25,7 +25,7 @@
         }
     </style>
     <br><br><br>
-    <center><button style="color: rgb(255, 255, 255); text-align: center;" class="button-t" id="refresh" onClick="recarregarAPagina()">Para Volver</button>
+    <center>
         <a href="https://repository.upb.edu.co/bitstream/handle/20.500.11912/432/digital_17516.pdf?sequence=1&isAllowed=y"><button style="color: rgb(255, 255, 255); text-align: center;" class="button-t" onClick="cliqueBtn()">Descargar Archivo</button></a>
     </center>
     <br><br><br>
@@ -34,12 +34,5 @@
 <body>
 
     <img src="/espectro_electromagnetico.jpg" alt="Spectrum_Properties_es"></body>
-<script>
-    var btn = document.querySelector("#refresh");
-    btn.addEventListener("click", function() {
-
-        location.reload(false);
-    });
-</script>
 
 </html>
